@@ -10,5 +10,3 @@ st.write(data)
 st.write("How many customers in the dataset churned?")
 target_bins = data.loc[:, 'Churn'].value_counts()
 st.bar_chart(target_bins)
-
-st.write("Last line")
